@@ -4,7 +4,7 @@ from keras import optimizers
 from keras import Input
 import numpy as np
 
-from keras.optimizer_v2.adam import Adam
+from keras.optimizers import Adam
 
 
 def get_model_confidence_level(X, y):

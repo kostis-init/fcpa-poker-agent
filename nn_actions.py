@@ -222,8 +222,6 @@ def main(_):
     # https://github.com/deepmind/open_spiel/blob/master/docs/install.md#configuration-conditional-dependencies
     # for more details on optional dependencies.
 
-    game, agents, rng = play_fcpa.create_fcpa_with_agents("random", "random")
-
     models_confidence = loadNN_confidence_level()
 
     print("Loaded models confidence level")
